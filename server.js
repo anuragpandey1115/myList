@@ -5,8 +5,8 @@ const routes = require('./routes')
 const Port = process.env.PORT || 7000
 
 mongoose.set('strictQuery', false);
-// const dburl = "mongodb+srv://social-media:Password123@cluster0.d5zqv.mongodb.net/social?retryWrites=true&w=majority"
-const dburl = 'mongodb+srv://anuragpandey:Password@atlas@cluster0.6weku61.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+
+const dburl = ''
 //Database  connection
 mongoose.connect(dburl).then(function(){
     console.log("Connetcted to database")
